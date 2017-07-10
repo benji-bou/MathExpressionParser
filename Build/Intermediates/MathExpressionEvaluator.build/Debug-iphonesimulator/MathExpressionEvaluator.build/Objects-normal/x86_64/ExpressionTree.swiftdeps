@@ -1,0 +1,61 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ExpressionLeaf"
+- "OperandLeaf"
+- "ExpressionTree"
+provides-nominal:
+- "P23MathExpressionEvaluator14ExpressionLeaf"
+- "V23MathExpressionEvaluator11OperandLeaf"
+- "V23MathExpressionEvaluator14ExpressionTree"
+provides-member:
+- ["P23MathExpressionEvaluator14ExpressionLeaf", ""]
+- ["V23MathExpressionEvaluator11OperandLeaf", ""]
+- ["V23MathExpressionEvaluator14ExpressionTree", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "ExpressionLeaf"
+- "ExpressionTree"
+- "OperandLeaf"
+- "Operators"
+- "String"
+depends-member:
+- ["P23MathExpressionEvaluator14ExpressionLeaf", "String"]
+- ["P23MathExpressionEvaluator14ExpressionLeaf", "expression"]
+- ["P23MathExpressionEvaluator14ExpressionLeaf", ""]
+- ["V23MathExpressionEvaluator14ExpressionTree", "ExpressionLeaf"]
+- ["V23MathExpressionEvaluator14ExpressionTree", "Operators"]
+- ["V23MathExpressionEvaluator14ExpressionTree", "String"]
+- ["V23MathExpressionEvaluator14ExpressionTree", "deinit"]
+- ["V23MathExpressionEvaluator14ExpressionTree", "expression"]
+- ["V23MathExpressionEvaluator14ExpressionTree", "init"]
+- ["V23MathExpressionEvaluator14ExpressionTree", "operands"]
+- ["V23MathExpressionEvaluator14ExpressionTree", "operator"]
+- ["V23MathExpressionEvaluator11OperandLeaf", "String"]
+- ["V23MathExpressionEvaluator11OperandLeaf", "deinit"]
+- ["V23MathExpressionEvaluator11OperandLeaf", "expression"]
+- ["V23MathExpressionEvaluator11OperandLeaf", "init"]
+depends-nominal:
+- "P23MathExpressionEvaluator14ExpressionLeaf"
+- "V23MathExpressionEvaluator14ExpressionTree"
+- "V23MathExpressionEvaluator11OperandLeaf"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/benjaminbouachour/Dev/Swift/MathExpressionEvaluator/MathExpressionEvaluator/MathExpressionEvaluator.h"
+- "/Users/benjaminbouachour/Dev/Swift/MathExpressionEvaluator/Build/Intermediates/MathExpressionEvaluator.build/Debug-iphonesimulator/MathExpressionEvaluator.build/unextended-module.modulemap"
+interface-hash: "aa47caf9ff623bc17409d11fd7e6733a"
